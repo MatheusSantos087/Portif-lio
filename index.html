@@ -1,0 +1,213 @@
+<!DOCTYPE html> 
+ <html lang="pt-br"> 
+   <head> 
+     <meta charset="UTF-8" /> 
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+     <meta name="author" content="Matheus Santos"> 
+     <meta name="description" content="Portfólio do desenvolvedor front-end Matheus Santos da Silva"> 
+     <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript"> 
+     <title>Matheus Santos</title> 
+     <link rel="icon" href="./icon.png"> 
+     <link rel="preconnect" href="https://fonts.googleapis.com"> 
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet"> 
+  
+     <link rel="stylesheet" href="./style.css" /> 
+   </head> 
+   <body> 
+     <header> 
+     <nav data-menu="suave"> 
+        <p><a href="#home">&lsaquo;MS/&rsaquo;</a></p> 
+        <button data-menu="button" aria-controls="menu"></button> 
+       <ul data-menu="list" id="menu"> 
+         <a href="#home"> 
+         <li>Home</li> 
+       </a> 
+         <a href="#sobre"> 
+           <li>Sobre</li> 
+         </a> 
+         <a href="#experiencia"> 
+         <li>Experiência</li> 
+       </a> 
+       <a href="#projetos"> 
+         <li>Projetos</li> 
+       </a> 
+       </ul> 
+     </nav> 
+   </header> 
+  
+     <main> 
+       <section class="principal" id="home" > 
+         <div class="principal__left"> 
+           <h1>Olá, eu sou</h1> 
+             <span class="principal__sentence"></span> 
+             <span class="principal__input-cursor"></span> 
+           <h1>Desenvolvedor Front-End</h1> 
+           <div class="principal__botao"> 
+             <a href="https://www.linkedin.com/in/matheus-santosxy087/" target="_blank"> 
+               <div class="principal__botao-linkedin"> 
+                 <img src="./imagens/linkedin.png" alt="" /> 
+                 <p>LinkedIn</p> 
+               </div> 
+             </a> 
+             <a href="https://github.com/MatheusSantos087" target="_blank"> 
+               <div class="principal__botao-github"> 
+                 <img src="./imagens/github.png" alt="" /> 
+                 <p>Github</p> 
+               </div> 
+             </a> 
+           </div> 
+         </div> 
+         <div class="principal__right"> 
+           <img src=".\imagens\10259340_4401278.svg" alt="Ilustração representando uma desenvolvedora sentada na cadeira mexendo no notebook com ambiente em volta." data-tilt> 
+         </div> 
+  
+         <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src=".\imagens\scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div> 
+       </section> 
+       <section class="sobre-mim" id="sobre" data-anime="js-scroll"> 
+         <div class="sobre-mim__foto"> 
+           <img src=".\imagens\imagem-perfil.jpg" alt="Uma foto de Matheus Santos " /> 
+         </div> 
+         <div class="sobre-mim__descricao" > 
+           <h1>Sobre mim</h1> 
+           <h2>Feira de Santana, Bahia</h2> 
+           <p> 
+             Olá! Sou um estudante apaixonado por tecnologia que ao longo da jornada descobriu uma fascinação especial pela programação e segue constantemente aprimorando-se
+           </p> 
+           <div class="sobre-mim__descricao-buttons"> 
+             <a href=".\imagens\Matheus Santos.pdf" download=""> 
+               <div class="sobre-mim__descricao-buttons-curriculo"> 
+                 <img src="./imagens/download-da-nuvem.png" alt="" /> 
+                 <p>Currículo</p> 
+               </div> 
+             </a> 
+             <a 
+               href="mailto: matheussantosxy@gmail.com?subject=Gabi, vim pelo seu portfólio! :)" 
+               target="_blank" 
+             > 
+               <div class="sobre-mim__descricao-buttons-email"> 
+                 <img src="./imagens/email.png" alt="" /> 
+                 <p>E-mail</p> 
+               </div> 
+             </a> 
+           </div> 
+  
+         </div> 
+       </section> 
+       <section class="experiencia" id="experiencia" data-anime="js-scroll"> 
+         <h1>Experiência</h1> 
+         <div class="experiencia__wrapper"> 
+           <section class="experiencia__lugares"> 
+             <ul data-tab="menu"> 
+               <li>&#128064&#128064</li> 
+               <li>Minha Jornada</li> 
+               <li>UNIFAN</li> 
+             </ul> 
+           </section> 
+           <div class="experiencia__descricao" data-tab="content"> 
+             <section data-anime="show-right"> 
+               <h2>Em busca da minha primeira experiência "oficial" :)</h2> 
+               <p class="experiencia__descricao-local">Quem sabe na sua empresa?</p> 
+               <p>Estou disponível para bater um papo, você pode entrar em contato via e-mail matheussantosxy@gmail.com &#10024</p> 
+             </section> 
+             <section data-anime="show-right"> 
+             <h2>Desenvolvedor Front-End</h2> 
+             <span>Out 2021 - Atual</span> 
+             <p class="experiencia__descricao-local">Minha Jornada<r/p> 
+             <p> 
+              "Estou empolgado com minha primeira incursão na área da tecnologia, buscando oportunidades em projetos independentes, freelancers e voluntariado para ampliar minhas habilidades. Busco aprender com cada experiência, construir uma base sólida e contribuir para causas significativas. Estou aberto a colaborações e ansioso para embarcar nessa emocionante jornada tecnológica."             </p> 
+           </section> 
+           <section data-anime="show-right"> 
+             <h2>Bacharelado</h2> 
+             <span>Fev 2022 - Jun 2026</span> 
+             <p class="experiencia__descricao-local">Centro Universitário Nobre de Feira de Santana</p> 
+             <p> 
+              Como estudante de Biomedicina na UNIFAN, tive a oportunidade enriquecedora de vivenciar experiências que moldaram minha jornada acadêmica. Ao aprender diretamente com profissionais exemplares, ganhei uma perspectiva única sobre o campo biomédico. Essa vivência profunda permitiu-me compreender o impacto crucial da saúde na vida das pessoas e motivou-me a buscar maneiras de contribuir positivamente para o bem-estar da comunidade ao meu redor. 
+             </p> 
+           </section> 
+         </div> 
+         </section> 
+         </div> 
+       </section> 
+       <section class="projetos" id="projetos" data-anime="js-scroll"> 
+         <h1>Projetos</h1> 
+         <div class="projetos__wrapper"> 
+           <section class="projetos__card"> 
+             <a href="https://matheussantos087.github.io/Projeto-Pokedex/" target="_blank"> 
+             <img src=".\imagens\logopokedex.png" alt="" class="projeto-img"/> 
+           </a> 
+             <h2>Pokedex</h2> 
+             <p> 
+              Meu primeiro projeto me aventurando na área de tecnologia, uma enciclopédia digital de Pokémon em HTML e CSS. A partir dele pude evoluir bastante.
+             </p> 
+             <span>Tecnologias usadas no projeto: HTML, CSS, JavaScript .</span> 
+             <a href="https://matheussantos087.github.io/Projeto-Pokedex/" target="_blank"> 
+               <div class="projetos__card-button"> 
+                 <img src="./imagens/link.png" alt="Imagem de uma pokebola representando meu projeto número 1"> 
+                 Visualizar 
+               </div>   
+             </a> 
+           </section> 
+           <section class="projetos__card"> 
+             <a href="https://matheussantos087.github.io/Projeto-The_last_of_Us/" target="_blank"> 
+             <img src="./imagens\logo2.gif" alt="Gif do titulo de the last of us representando meu projeto número 2" class="projeto-img"/> 
+             </a> 
+             <h2>The last of Us</h2> 
+             <p> 
+              Um carrossel de imagens da obra The Last of Us, série baseada nos jogos eletrônicos de ação e aventura desenvolvida pela Naughty Dog. 
+             </p> 
+             <span>Tecnologias usadas no projeto: HTML e CSS.</span> 
+             <a href="https://matheussantos087.github.io/Projeto-The_last_of_Us/" target="_blank" 
+               > 
+               <div class="projetos__card-button"> 
+               <img src="./imagens/link.png" alt=""> 
+               Visualizar 
+             </div> 
+             </a> 
+           </section> 
+           <section class="projetos__card"> 
+             <a href="https://matheussantos087.github.io/Projeto-Perpetuos/" target="_blank"> 
+             <img src="./imagens\logo3.png" alt="" class="projeto-img"/> 
+             </a> 
+             <h2>Sandman</h2> 
+             <p> 
+              Seleção de personagens com a temática dos perpétuos da obra de Sandman. 
+             </p> 
+             <span>Tecnologias usadas no projeto: HTML, CSS e JS.</span> 
+             <a href="https://matheussantos087.github.io/Projeto-Perpetuos/" target="_blank"> 
+               <div class="projetos__card-button"> 
+                 <img src="./imagens/link.png" alt="Imagem logo do sandman representando meu projeto número 3"> 
+                 Visualizar 
+               </div> 
+             </a> 
+           </section> 
+           <section class="projetos__card"> 
+             <a href="https://matheussantos087.github.io/projeto-onepiece/" target="_blank"> 
+             <img src="./imagens/onepiecelogo.png" alt="Imagem logo de folhas de uma planta representando meu projeto número 4" class="projeto-img"/> 
+           </a> 
+             <h2>One Piece</h2> 
+             <p> 
+              Seleção de personagens com a temática dos chapéus de palha da obra de One Piece. 
+             </p> 
+             <span>Tecnologias usadas no projeto: HTML, CSS e JS.</span> 
+             <a href="https://matheussantos087.github.io/projeto-onepiece/" target="_blank"> 
+               <div class="projetos__card-button"> 
+                 <img src="./imagens/link.png" alt=""> 
+                 Visualizar 
+               </div> 
+             </a> 
+  
+           </section> 
+         </div> 
+       </section> 
+  
+       <footer> 
+         <p>Desenvolvido por</p><a href="https://www.linkedin.com/in/matheus-santos-12b60a233" target="_blank"><span> Matheus Santos</span></a> 
+       </footer> 
+     </main> 
+  
+     <script src="./main.js" type="module"></script> 
+     <script src="./Js/Vanilha.js"></script> 
+   </body> 
+ </html>
